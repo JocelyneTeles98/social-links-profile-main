@@ -1,0 +1,104 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+.about {
+    text-align: center;
+    width: 100%;   
+}
+
+.attribution {
+    color: #FFF;
+    font-size: 0.688rem;
+    text-align: center; 
+}
+    
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+body {
+    background-color: #141414;
+    color: #FFF;
+    display: grid;
+    font-family: "Inter", sans-serif;
+    line-height: 1.5;
+    height: 100vh;
+    place-items: center;
+    -webkit-font-smoothing: antialiased;
+}
+
+.card {
+    align-items: center;
+    background-color: #1F1F1F;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin: 12px;
+    max-width: 384px;
+    padding: 24px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+}
+
+.place {
+    color: #C4F82A;
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+
+.name {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.occupations {
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+.quote {
+    font-size: 0.75rem;
+    font-weight: 300;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    display: block;
+    max-width: 100%;
+    width: 88px;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+}
+
+.social-btn {
+    background-color: #333333;
+    border-radius: 8px;
+    font-size: 0.875rem;
+    font-weight: 800;
+    color: #FFF;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.8s;
+}
+
+.social-btn:hover {
+    background-color: #C4F82A;
+    color: #333333;
+}
